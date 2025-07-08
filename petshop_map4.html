@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a22dfdbf8a4563fd959b0c17b3b5968 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a22dfdbf8a4563fd959b0c17b3b5968" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a22dfdbf8a4563fd959b0c17b3b5968 = L.map(
+                "map_9a22dfdbf8a4563fd959b0c17b3b5968",
+                {
+                    center: [10.806622352941176, 106.70664470588235],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48c810cea4cf57368dda6f1c0d56c0dc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_48c810cea4cf57368dda6f1c0d56c0dc.addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var marker_44308cb753322821a7a78a0f80d9aa25 = L.marker(
+                [10.80906, 106.68882],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_56c07626d1325654a20c47bf52bbd4e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49a36e8a7b0ecd7a49d46218930e82bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5fd1ac4c53ebd2054bf00436fe15d860 = $(`<div id="html_5fd1ac4c53ebd2054bf00436fe15d860" style="width: 100.0%; height: 100.0%;">     <b>Cera Pet Home</b><br>     <b>Địa chỉ:</b> 46E3 Nguyễn Văn Đậu, Phường 7, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 6.7 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_49a36e8a7b0ecd7a49d46218930e82bd.setContent(html_5fd1ac4c53ebd2054bf00436fe15d860);
+            
+        
+
+        marker_44308cb753322821a7a78a0f80d9aa25.bindPopup(popup_49a36e8a7b0ecd7a49d46218930e82bd)
+        ;
+
+        
+    
+    
+                marker_44308cb753322821a7a78a0f80d9aa25.setIcon(icon_56c07626d1325654a20c47bf52bbd4e2);
+            
+    
+            var marker_1c858a459644672120a5d9ce281b59aa = L.marker(
+                [10.83568, 106.73102],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_6f9f8e3d7beae7ea9e92577c3ce0b755 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a184fe7a2b816bafb9f6270715cc0e18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21fc7cad026119202a3e9160da2843a4 = $(`<div id="html_21fc7cad026119202a3e9160da2843a4" style="width: 100.0%; height: 100.0%;">     <b>TL PET SHOP - Cửa hàng Hamster Chó Mèo Bình Thạnh</b><br>     <b>Địa chỉ:</b> 414 Đ. Phạm Văn Đồng, Phường 11, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 8<br>     <b>Khoảng cách:</b> 7.4 km<br>     <b>Thời gian:</b> 18 phút     </div>`)[0];
+                popup_a184fe7a2b816bafb9f6270715cc0e18.setContent(html_21fc7cad026119202a3e9160da2843a4);
+            
+        
+
+        marker_1c858a459644672120a5d9ce281b59aa.bindPopup(popup_a184fe7a2b816bafb9f6270715cc0e18)
+        ;
+
+        
+    
+    
+                marker_1c858a459644672120a5d9ce281b59aa.setIcon(icon_6f9f8e3d7beae7ea9e92577c3ce0b755);
+            
+    
+            var marker_07a5556b18f21dd4148d305ed1436344 = L.marker(
+                [10.81781, 106.69524],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_f73d0b366b91d8853ec1fe417eedd3ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6bbd974467f69c10fb7124c1a0284855 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ade940b1a1bd3cd1448f9f0804a88da = $(`<div id="html_9ade940b1a1bd3cd1448f9f0804a88da" style="width: 100.0%; height: 100.0%;">     <b>PICK ME! Pet Store</b><br>     <b>Địa chỉ:</b> 330/8 Đ. Phan Văn Trị, Phường 11, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 6.9 km<br>     <b>Thời gian:</b> 16 phút     </div>`)[0];
+                popup_6bbd974467f69c10fb7124c1a0284855.setContent(html_9ade940b1a1bd3cd1448f9f0804a88da);
+            
+        
+
+        marker_07a5556b18f21dd4148d305ed1436344.bindPopup(popup_6bbd974467f69c10fb7124c1a0284855)
+        ;
+
+        
+    
+    
+                marker_07a5556b18f21dd4148d305ed1436344.setIcon(icon_f73d0b366b91d8853ec1fe417eedd3ed);
+            
+    
+            var marker_ceaa26b6fbff5eee47bc991b6151a905 = L.marker(
+                [10.82085, 106.70689],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_cddb3832ed6b896b8f6cd72be5ab00b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6d1896604f1e991196af9dfac7c71ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9084f57a601c563cca8700ca7052c7c8 = $(`<div id="html_9084f57a601c563cca8700ca7052c7c8" style="width: 100.0%; height: 100.0%;">     <b>Nhà Phô Mai - Pet Store & Spa - Spa thú cưng Bình Thạnh TPHCM</b><br>     <b>Địa chỉ:</b> 30A Vũ Ngọc Phan, Phường 13, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 7.4 km<br>     <b>Thời gian:</b> 16 phút     </div>`)[0];
+                popup_d6d1896604f1e991196af9dfac7c71ba.setContent(html_9084f57a601c563cca8700ca7052c7c8);
+            
+        
+
+        marker_ceaa26b6fbff5eee47bc991b6151a905.bindPopup(popup_d6d1896604f1e991196af9dfac7c71ba)
+        ;
+
+        
+    
+    
+                marker_ceaa26b6fbff5eee47bc991b6151a905.setIcon(icon_cddb3832ed6b896b8f6cd72be5ab00b2);
+            
+    
+            var marker_899f8487e4c4397d2d03b568da48566a = L.marker(
+                [10.81917, 106.70246],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_4127f24bdd7d434eba1cc5145f7f5737 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1775a3ef7a2f9704ae73738348cb8443 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_217d962ee990c4179fc67a927c0b2fe5 = $(`<div id="html_217d962ee990c4179fc67a927c0b2fe5" style="width: 100.0%; height: 100.0%;">     <b>Paddy Pet Shop</b><br>     <b>Địa chỉ:</b> 412/3 Nơ Trang Long, Phường 13, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 4<br>     <b>Khoảng cách:</b> 6.9 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_1775a3ef7a2f9704ae73738348cb8443.setContent(html_217d962ee990c4179fc67a927c0b2fe5);
+            
+        
+
+        marker_899f8487e4c4397d2d03b568da48566a.bindPopup(popup_1775a3ef7a2f9704ae73738348cb8443)
+        ;
+
+        
+    
+    
+                marker_899f8487e4c4397d2d03b568da48566a.setIcon(icon_4127f24bdd7d434eba1cc5145f7f5737);
+            
+    
+            var marker_62c19b2c65a4a52b049e25b3d607ff1e = L.marker(
+                [10.81494, 106.69799],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_f2838bfe7785dd63e5936077a6e20712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e86d707b49cc9308a8cb444bb37b6875 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df782a2f5fbedfa1a085ec248e02d9d2 = $(`<div id="html_df782a2f5fbedfa1a085ec248e02d9d2" style="width: 100.0%; height: 100.0%;">     <b>Pet Shop & Spa thú cưng - Pet Wow Nơ Trang Long</b><br>     <b>Địa chỉ:</b> 288/45 Nơ Trang Long, Phường 12, Bình Thạnh, Hồ Chí Minh 72313, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 6.7 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_e86d707b49cc9308a8cb444bb37b6875.setContent(html_df782a2f5fbedfa1a085ec248e02d9d2);
+            
+        
+
+        marker_62c19b2c65a4a52b049e25b3d607ff1e.bindPopup(popup_e86d707b49cc9308a8cb444bb37b6875)
+        ;
+
+        
+    
+    
+                marker_62c19b2c65a4a52b049e25b3d607ff1e.setIcon(icon_f2838bfe7785dd63e5936077a6e20712);
+            
+    
+            var marker_8ca93e35568e8a8a3b34e698fcfb5c21 = L.marker(
+                [10.81032, 106.69519],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_bdb36e65d49577fc3af2bfd621602e92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf2fc6b081b18e85653de83efe5b3dda = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a8cee010aa803253ea19700fe0f7a06 = $(`<div id="html_6a8cee010aa803253ea19700fe0f7a06" style="width: 100.0%; height: 100.0%;">     <b>SamSam Petshop_Spa Hotel Chó Mèo</b><br>     <b>Địa chỉ:</b> 140 Nơ Trang Long, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 2<br>     <b>Khoảng cách:</b> 6.0 km<br>     <b>Thời gian:</b> 13 phút     </div>`)[0];
+                popup_bf2fc6b081b18e85653de83efe5b3dda.setContent(html_6a8cee010aa803253ea19700fe0f7a06);
+            
+        
+
+        marker_8ca93e35568e8a8a3b34e698fcfb5c21.bindPopup(popup_bf2fc6b081b18e85653de83efe5b3dda)
+        ;
+
+        
+    
+    
+                marker_8ca93e35568e8a8a3b34e698fcfb5c21.setIcon(icon_bdb36e65d49577fc3af2bfd621602e92);
+            
+    
+            var marker_a7e0529432bbc921626fc791a5b42d76 = L.marker(
+                [10.80631, 106.69886],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_e461fabe6a873ab0ad40c5872a0c98b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bee731dee728b9c159da60ded09e2f43 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05b68d2c3219398a9f53d98b2747e114 = $(`<div id="html_05b68d2c3219398a9f53d98b2747e114" style="width: 100.0%; height: 100.0%;">     <b>Hẻm Thú Cưng (Pet shop)</b><br>     <b>Địa chỉ:</b> 39 Nguyễn Thiện Thuật, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 5.2 km<br>     <b>Thời gian:</b> 11 phút     </div>`)[0];
+                popup_bee731dee728b9c159da60ded09e2f43.setContent(html_05b68d2c3219398a9f53d98b2747e114);
+            
+        
+
+        marker_a7e0529432bbc921626fc791a5b42d76.bindPopup(popup_bee731dee728b9c159da60ded09e2f43)
+        ;
+
+        
+    
+    
+                marker_a7e0529432bbc921626fc791a5b42d76.setIcon(icon_e461fabe6a873ab0ad40c5872a0c98b9);
+            
+    
+            var marker_8c3ef4204ece8727ad91f1130f4741fc = L.marker(
+                [10.81058, 106.71314],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_876b8a5deab55bb21c7817a1dccb8b5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e93077cded430a7fea6088e228d3302 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97bc90e6877c58a70a269c73d6c5097a = $(`<div id="html_97bc90e6877c58a70a269c73d6c5097a" style="width: 100.0%; height: 100.0%;">     <b>Puppy's House _ Petshop & Salon</b><br>     <b>Địa chỉ:</b> 599 Xô Viết Nghệ Tĩnh, Phường 26, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_9e93077cded430a7fea6088e228d3302.setContent(html_97bc90e6877c58a70a269c73d6c5097a);
+            
+        
+
+        marker_8c3ef4204ece8727ad91f1130f4741fc.bindPopup(popup_9e93077cded430a7fea6088e228d3302)
+        ;
+
+        
+    
+    
+                marker_8c3ef4204ece8727ad91f1130f4741fc.setIcon(icon_876b8a5deab55bb21c7817a1dccb8b5e);
+            
+    
+            var marker_c0705ac30dc0ccadccffffc9972da124 = L.marker(
+                [10.80499, 106.71149],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_192b6892d0b7928e4f8e84308d92059c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2159acde494dda036c808e9f04c305b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2be44a89b2a867993a1dd65e687a22a3 = $(`<div id="html_2be44a89b2a867993a1dd65e687a22a3" style="width: 100.0%; height: 100.0%;">     <b>TL PET SHOP - Cửa hàng Hamster Chó Mèo Bình Thạnh</b><br>     <b>Địa chỉ:</b> 347 Xô Viết Nghệ Tĩnh, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 8<br>     <b>Khoảng cách:</b> 3.8 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_2159acde494dda036c808e9f04c305b8.setContent(html_2be44a89b2a867993a1dd65e687a22a3);
+            
+        
+
+        marker_c0705ac30dc0ccadccffffc9972da124.bindPopup(popup_2159acde494dda036c808e9f04c305b8)
+        ;
+
+        
+    
+    
+                marker_c0705ac30dc0ccadccffffc9972da124.setIcon(icon_192b6892d0b7928e4f8e84308d92059c);
+            
+    
+            var marker_d55492f4edb94c86792f9d516122032e = L.marker(
+                [10.80334, 106.71955],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_1b5c207c00ffe70ece2b34e5a0b2f646 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8e3407c6b7e736a2e7ad5c5841aca11 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f80298bb657bcc4037aa6636a13d2955 = $(`<div id="html_f80298bb657bcc4037aa6636a13d2955" style="width: 100.0%; height: 100.0%;">     <b>Meowy Pet Shop</b><br>     <b>Địa chỉ:</b> 14 Võ Oanh, Phường 25, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 2<br>     <b>Khoảng cách:</b> 3.2 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_a8e3407c6b7e736a2e7ad5c5841aca11.setContent(html_f80298bb657bcc4037aa6636a13d2955);
+            
+        
+
+        marker_d55492f4edb94c86792f9d516122032e.bindPopup(popup_a8e3407c6b7e736a2e7ad5c5841aca11)
+        ;
+
+        
+    
+    
+                marker_d55492f4edb94c86792f9d516122032e.setIcon(icon_1b5c207c00ffe70ece2b34e5a0b2f646);
+            
+    
+            var marker_a60798d29d2890ce2d5359ed3c2fb8e0 = L.marker(
+                [10.79721, 106.69628],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_979f729c80f45486ebd4beab1ae4bef6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e54c4103c00eef591cf160d97bd0f63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b67d31f2c9e8646538543a96a6460ef5 = $(`<div id="html_b67d31f2c9e8646538543a96a6460ef5" style="width: 100.0%; height: 100.0%;">     <b>24H Pet Shop | Thức Ăn Chó Mèo</b><br>     <b>Địa chỉ:</b> 110G Đ. Lê Văn Duyệt, Phường 1, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 1<br>     <b>Khoảng cách:</b> 5.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_1e54c4103c00eef591cf160d97bd0f63.setContent(html_b67d31f2c9e8646538543a96a6460ef5);
+            
+        
+
+        marker_a60798d29d2890ce2d5359ed3c2fb8e0.bindPopup(popup_1e54c4103c00eef591cf160d97bd0f63)
+        ;
+
+        
+    
+    
+                marker_a60798d29d2890ce2d5359ed3c2fb8e0.setIcon(icon_979f729c80f45486ebd4beab1ae4bef6);
+            
+    
+            var marker_ea3b5004095f8224cd0dc192d43d726c = L.marker(
+                [10.79705, 106.70471],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_fb27ef80dff1f9cae804cd87004fa5b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6dbda9c3624c619d14a517da84da03e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5ef908a00fa9bbca7805f9c4443c33e = $(`<div id="html_c5ef908a00fa9bbca7805f9c4443c33e" style="width: 100.0%; height: 100.0%;">     <b>Meowy pet shop</b><br>     <b>Địa chỉ:</b> 112 Đ. Nguyễn Cửu Vân, Phường 17, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Chi nhánh:</b> 2<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_d6dbda9c3624c619d14a517da84da03e.setContent(html_c5ef908a00fa9bbca7805f9c4443c33e);
+            
+        
+
+        marker_ea3b5004095f8224cd0dc192d43d726c.bindPopup(popup_d6dbda9c3624c619d14a517da84da03e)
+        ;
+
+        
+    
+    
+                marker_ea3b5004095f8224cd0dc192d43d726c.setIcon(icon_fb27ef80dff1f9cae804cd87004fa5b5);
+            
+    
+            var marker_9c07bfddd7869dcc4d8271d71da8c78a = L.marker(
+                [10.78845, 106.70851],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_fe6026931ff6e315c21efabc3d4ec288 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc83d3b5462d80453dcb56312f266dfc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7277db1d2450761ed11d002803a5a8f5 = $(`<div id="html_7277db1d2450761ed11d002803a5a8f5" style="width: 100.0%; height: 100.0%;">     <b>Paddy Pet Shop - Trường Sa</b><br>     <b>Địa chỉ:</b> 168 Trường Sa, Phường 1, Bình Thạnh, Hồ Chí Minh 70000, Việt Nam<br>     <b>Chi nhánh:</b> 4<br>     <b>Khoảng cách:</b> 5.4 km<br>     <b>Thời gian:</b> 8 phút     </div>`)[0];
+                popup_fc83d3b5462d80453dcb56312f266dfc.setContent(html_7277db1d2450761ed11d002803a5a8f5);
+            
+        
+
+        marker_9c07bfddd7869dcc4d8271d71da8c78a.bindPopup(popup_fc83d3b5462d80453dcb56312f266dfc)
+        ;
+
+        
+    
+    
+                marker_9c07bfddd7869dcc4d8271d71da8c78a.setIcon(icon_fe6026931ff6e315c21efabc3d4ec288);
+            
+    
+            var marker_c743ee4faf1f5ddeb44ea447f497ae2e = L.marker(
+                [10.78871, 106.70992],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_38914f1b0ebc997891acf62da9392338 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7a8cc645fea80709decb881d5b1d3df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15e5af71a1644ca828ebda7afc3639f2 = $(`<div id="html_15e5af71a1644ca828ebda7afc3639f2" style="width: 100.0%; height: 100.0%;">     <b>Allpet - Cửa hàng thú cưng Bình Thạnh</b><br>     <b>Địa chỉ:</b> 19l Nguyễn Hữu Cảnh, Phường 19, Bình Thạnh, Hồ Chí Minh 72300, Việt Nam<br>     <b>Chi nhánh:</b> 5<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 8 phút     </div>`)[0];
+                popup_b7a8cc645fea80709decb881d5b1d3df.setContent(html_15e5af71a1644ca828ebda7afc3639f2);
+            
+        
+
+        marker_c743ee4faf1f5ddeb44ea447f497ae2e.bindPopup(popup_b7a8cc645fea80709decb881d5b1d3df)
+        ;
+
+        
+    
+    
+                marker_c743ee4faf1f5ddeb44ea447f497ae2e.setIcon(icon_38914f1b0ebc997891acf62da9392338);
+            
+    
+            var marker_ad54adae37b6374825f2a49c13d658ee = L.marker(
+                [10.78943, 106.71499],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_dc06d060ba35a135584cadc93ac441f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09c34fcee6d7fc002d9baa5b56c2372b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7fa3696487dd39ea90e019c333cc916b = $(`<div id="html_7fa3696487dd39ea90e019c333cc916b" style="width: 100.0%; height: 100.0%;">     <b>Pet Shop Little Dog</b><br>     <b>Địa chỉ:</b> 23G Nguyễn Hữu Cảnh, Phường 22, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Chi nhánh:</b> 4<br>     <b>Khoảng cách:</b> 4.5 km<br>     <b>Thời gian:</b> 7 phút     </div>`)[0];
+                popup_09c34fcee6d7fc002d9baa5b56c2372b.setContent(html_7fa3696487dd39ea90e019c333cc916b);
+            
+        
+
+        marker_ad54adae37b6374825f2a49c13d658ee.bindPopup(popup_09c34fcee6d7fc002d9baa5b56c2372b)
+        ;
+
+        
+    
+    
+                marker_ad54adae37b6374825f2a49c13d658ee.setIcon(icon_dc06d060ba35a135584cadc93ac441f8);
+            
+    
+            var marker_47f867365e41d274277095e04ae2f814 = L.marker(
+                [10.79868, 106.7179],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_d64190e35f3e6aac6a0ea49b264640bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83b270da2bcba6bbc33c2c0e4812547a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5de7045db9bde786b50726d40ecfec2 = $(`<div id="html_e5de7045db9bde786b50726d40ecfec2" style="width: 100.0%; height: 100.0%;">     <b>Nông Trại Thú Cưng - Bình Thạnh</b><br>     <b>Địa chỉ:</b> 19 Hẻm 602 Điện Biên Phủ, Phường 22, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Chi nhánh:</b> 2<br>     <b>Khoảng cách:</b> 3.8 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_83b270da2bcba6bbc33c2c0e4812547a.setContent(html_e5de7045db9bde786b50726d40ecfec2);
+            
+        
+
+        marker_47f867365e41d274277095e04ae2f814.bindPopup(popup_83b270da2bcba6bbc33c2c0e4812547a)
+        ;
+
+        
+    
+    
+                marker_47f867365e41d274277095e04ae2f814.setIcon(icon_d64190e35f3e6aac6a0ea49b264640bc);
+            
+    
+            var marker_e7cd507c628155eec0c5087110d01636 = L.marker(
+                [10.80236, 106.7428],
+                {
+}
+            ).addTo(map_9a22dfdbf8a4563fd959b0c17b3b5968);
+        
+    
+            var icon_ccfe707416b132c52d4842a7bd75a810 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_537d4d08ea985f5e3ec5e10ef0b5129d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5a8a23377d06c17e891a454df96eea4 = $(`<div id="html_c5a8a23377d06c17e891a454df96eea4" style="width: 100.0%; height: 100.0%;">     <b>Điểm đặc biệt:</b> Song Hành Võ Nguyên Giáp<br>     <b>Địa chỉ:</b> P. Thảo Điền, TP. Thủ Đức, TP.HCM     </div>`)[0];
+                popup_537d4d08ea985f5e3ec5e10ef0b5129d.setContent(html_c5a8a23377d06c17e891a454df96eea4);
+            
+        
+
+        marker_e7cd507c628155eec0c5087110d01636.bindPopup(popup_537d4d08ea985f5e3ec5e10ef0b5129d)
+        ;
+
+        
+    
+    
+                marker_e7cd507c628155eec0c5087110d01636.setIcon(icon_ccfe707416b132c52d4842a7bd75a810);
+            
+</script>
+</html>
