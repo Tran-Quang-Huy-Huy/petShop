@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_96a26ba44dbeadd76a2212b324c88ca8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_96a26ba44dbeadd76a2212b324c88ca8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_96a26ba44dbeadd76a2212b324c88ca8 = L.map(
+                "map_96a26ba44dbeadd76a2212b324c88ca8",
+                {
+                    center: [10.807294444444445, 106.70623555555555],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7e837dce0c6145792800618fea9b076 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a7e837dce0c6145792800618fea9b076.addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var marker_92fd4ed26d66778fe6a721cff76f5b5c = L.marker(
+                [10.80906, 106.68882],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_7eefcfcc01dae1befb406a399dfd42af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d07f34b4e1cd0b00e3e802efe6fe3889 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1677baaae0717b028749411330917dde = $(`<div id="html_1677baaae0717b028749411330917dde" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 46E3 Nguyễn Văn Đậu, Phường 7, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 6.7 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_d07f34b4e1cd0b00e3e802efe6fe3889.setContent(html_1677baaae0717b028749411330917dde);
+            
+        
+
+        marker_92fd4ed26d66778fe6a721cff76f5b5c.bindPopup(popup_d07f34b4e1cd0b00e3e802efe6fe3889)
+        ;
+
+        
+    
+    
+                marker_92fd4ed26d66778fe6a721cff76f5b5c.setIcon(icon_7eefcfcc01dae1befb406a399dfd42af);
+            
+    
+            var marker_ec6312752eade550428610cf8561beca = L.marker(
+                [10.83568, 106.73102],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_3fcd2fb96bd506dd611ddeb901d28b0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27d5e0c1c7570c6575e36b396a39d16b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9b07cf0525bd64ba7c0d078662d5b2c = $(`<div id="html_d9b07cf0525bd64ba7c0d078662d5b2c" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 414 Đ. Phạm Văn Đồng, Phường 11, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 7.4 km<br>     <b>Thời gian:</b> 18 phút     </div>`)[0];
+                popup_27d5e0c1c7570c6575e36b396a39d16b.setContent(html_d9b07cf0525bd64ba7c0d078662d5b2c);
+            
+        
+
+        marker_ec6312752eade550428610cf8561beca.bindPopup(popup_27d5e0c1c7570c6575e36b396a39d16b)
+        ;
+
+        
+    
+    
+                marker_ec6312752eade550428610cf8561beca.setIcon(icon_3fcd2fb96bd506dd611ddeb901d28b0d);
+            
+    
+            var marker_fe615786585517c0e03fe1823a097555 = L.marker(
+                [10.81781, 106.69524],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_4c92c141bc9e446dfa015ea33dfa431f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10a06722d7977f31332d0dd7ec7ce18d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_862b65a0e75fbd4093d6436a660c32ac = $(`<div id="html_862b65a0e75fbd4093d6436a660c32ac" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 330/8 Đ. Phan Văn Trị, Phường 11, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Khoảng cách:</b> 6.9 km<br>     <b>Thời gian:</b> 16 phút     </div>`)[0];
+                popup_10a06722d7977f31332d0dd7ec7ce18d.setContent(html_862b65a0e75fbd4093d6436a660c32ac);
+            
+        
+
+        marker_fe615786585517c0e03fe1823a097555.bindPopup(popup_10a06722d7977f31332d0dd7ec7ce18d)
+        ;
+
+        
+    
+    
+                marker_fe615786585517c0e03fe1823a097555.setIcon(icon_4c92c141bc9e446dfa015ea33dfa431f);
+            
+    
+            var marker_f53d85f4a8545757bffb9ccd48b10e0f = L.marker(
+                [10.82085, 106.70689],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_7835d1a6eb2552db2e7c0d46cfdff8c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da7a886223f70928eec8e3daf3ced1f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81485378014cb5fd28d38eb3646005ee = $(`<div id="html_81485378014cb5fd28d38eb3646005ee" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 30A Vũ Ngọc Phan, Phường 13, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Khoảng cách:</b> 7.4 km<br>     <b>Thời gian:</b> 16 phút     </div>`)[0];
+                popup_da7a886223f70928eec8e3daf3ced1f3.setContent(html_81485378014cb5fd28d38eb3646005ee);
+            
+        
+
+        marker_f53d85f4a8545757bffb9ccd48b10e0f.bindPopup(popup_da7a886223f70928eec8e3daf3ced1f3)
+        ;
+
+        
+    
+    
+                marker_f53d85f4a8545757bffb9ccd48b10e0f.setIcon(icon_7835d1a6eb2552db2e7c0d46cfdff8c0);
+            
+    
+            var marker_60e06792403458f83d25a87ef5efccca = L.marker(
+                [10.81917, 106.70246],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_b9bd783bf3169ce7e4088b915604338d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16c335dea6c8e9650c15e4d51245c63a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e360f2d0b27a2d0a5b983c6117e48e20 = $(`<div id="html_e360f2d0b27a2d0a5b983c6117e48e20" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 412/3 Nơ Trang Long, Phường 13, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 6.9 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_16c335dea6c8e9650c15e4d51245c63a.setContent(html_e360f2d0b27a2d0a5b983c6117e48e20);
+            
+        
+
+        marker_60e06792403458f83d25a87ef5efccca.bindPopup(popup_16c335dea6c8e9650c15e4d51245c63a)
+        ;
+
+        
+    
+    
+                marker_60e06792403458f83d25a87ef5efccca.setIcon(icon_b9bd783bf3169ce7e4088b915604338d);
+            
+    
+            var marker_b68b3e3290d1a94d3216a1c622d4d698 = L.marker(
+                [10.81872, 106.69928],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_71d33faa94d3eb53bce54b154a15a805 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b03815a603f6c5a47e5c43b80f684173 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_964f5b3f629fc0152494f09ad37b2360 = $(`<div id="html_964f5b3f629fc0152494f09ad37b2360" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 338 Nơ Trang Long, Phường 13, Bình Thạnh, Hồ Chí Minh 70000, Việt Nam<br>     <b>Khoảng cách:</b> 6.7 km<br>     <b>Thời gian:</b> 14 phút     </div>`)[0];
+                popup_b03815a603f6c5a47e5c43b80f684173.setContent(html_964f5b3f629fc0152494f09ad37b2360);
+            
+        
+
+        marker_b68b3e3290d1a94d3216a1c622d4d698.bindPopup(popup_b03815a603f6c5a47e5c43b80f684173)
+        ;
+
+        
+    
+    
+                marker_b68b3e3290d1a94d3216a1c622d4d698.setIcon(icon_71d33faa94d3eb53bce54b154a15a805);
+            
+    
+            var marker_acb2919761a951a153dfff339b9b6943 = L.marker(
+                [10.81494, 106.69799],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_922973dab686127bfa0606f8c51be47a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9f47aef9b963db3ab88ef599db8802d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2379473c73ef6cac7856ac0b4eea8b4 = $(`<div id="html_f2379473c73ef6cac7856ac0b4eea8b4" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 288/45 Nơ Trang Long, Phường 12, Bình Thạnh, Hồ Chí Minh 72313, Việt Nam<br>     <b>Khoảng cách:</b> 6.7 km<br>     <b>Thời gian:</b> 15 phút     </div>`)[0];
+                popup_d9f47aef9b963db3ab88ef599db8802d.setContent(html_f2379473c73ef6cac7856ac0b4eea8b4);
+            
+        
+
+        marker_acb2919761a951a153dfff339b9b6943.bindPopup(popup_d9f47aef9b963db3ab88ef599db8802d)
+        ;
+
+        
+    
+    
+                marker_acb2919761a951a153dfff339b9b6943.setIcon(icon_922973dab686127bfa0606f8c51be47a);
+            
+    
+            var marker_bc52fcb4ac246beb74237e3fdffee65d = L.marker(
+                [10.81032, 106.69519],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_1373dfc29aaf63b014bad1f359ecf55c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08900ce00f54876158f3c45d0809550f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2c153198851d93304e952f5f777c229 = $(`<div id="html_a2c153198851d93304e952f5f777c229" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 140 Nơ Trang Long, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 6.0 km<br>     <b>Thời gian:</b> 13 phút     </div>`)[0];
+                popup_08900ce00f54876158f3c45d0809550f.setContent(html_a2c153198851d93304e952f5f777c229);
+            
+        
+
+        marker_bc52fcb4ac246beb74237e3fdffee65d.bindPopup(popup_08900ce00f54876158f3c45d0809550f)
+        ;
+
+        
+    
+    
+                marker_bc52fcb4ac246beb74237e3fdffee65d.setIcon(icon_1373dfc29aaf63b014bad1f359ecf55c);
+            
+    
+            var marker_01eb47ee097a7138d7bc0397e45fe41f = L.marker(
+                [10.80631, 106.69886],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_928cc8f12d5a6c56f9e52cbc14de7421 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_858d1d24900e277726c5090e7bbf10bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_364670ce9699133a367827c83e1696c9 = $(`<div id="html_364670ce9699133a367827c83e1696c9" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 39 Nguyễn Thiện Thuật, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 5.2 km<br>     <b>Thời gian:</b> 11 phút     </div>`)[0];
+                popup_858d1d24900e277726c5090e7bbf10bd.setContent(html_364670ce9699133a367827c83e1696c9);
+            
+        
+
+        marker_01eb47ee097a7138d7bc0397e45fe41f.bindPopup(popup_858d1d24900e277726c5090e7bbf10bd)
+        ;
+
+        
+    
+    
+                marker_01eb47ee097a7138d7bc0397e45fe41f.setIcon(icon_928cc8f12d5a6c56f9e52cbc14de7421);
+            
+    
+            var marker_938b0c7e675bfcf690ec61473f99f259 = L.marker(
+                [10.81058, 106.71314],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_98d23fcf91210bff7809e29d431ed91d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28ab02bf0511867ec76ef6b727e03743 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a9470cfa6a2886c0f0df48f045f54ca = $(`<div id="html_5a9470cfa6a2886c0f0df48f045f54ca" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 599 Xô Viết Nghệ Tĩnh, Phường 26, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_28ab02bf0511867ec76ef6b727e03743.setContent(html_5a9470cfa6a2886c0f0df48f045f54ca);
+            
+        
+
+        marker_938b0c7e675bfcf690ec61473f99f259.bindPopup(popup_28ab02bf0511867ec76ef6b727e03743)
+        ;
+
+        
+    
+    
+                marker_938b0c7e675bfcf690ec61473f99f259.setIcon(icon_98d23fcf91210bff7809e29d431ed91d);
+            
+    
+            var marker_f08037f8a9bbf61e7f1d2f95130bdc42 = L.marker(
+                [10.80499, 106.71149],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_f8819239aeb39a486daeb358785b82d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4be58acb35248be46cc228d3c219d691 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef0e887bc6b661ea294a535583bb1f1b = $(`<div id="html_ef0e887bc6b661ea294a535583bb1f1b" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 347 Xô Viết Nghệ Tĩnh, Phường 14, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 3.8 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_4be58acb35248be46cc228d3c219d691.setContent(html_ef0e887bc6b661ea294a535583bb1f1b);
+            
+        
+
+        marker_f08037f8a9bbf61e7f1d2f95130bdc42.bindPopup(popup_4be58acb35248be46cc228d3c219d691)
+        ;
+
+        
+    
+    
+                marker_f08037f8a9bbf61e7f1d2f95130bdc42.setIcon(icon_f8819239aeb39a486daeb358785b82d1);
+            
+    
+            var marker_cbcd3d048bdeb39e508ccd3a68f82e03 = L.marker(
+                [10.80334, 106.71955],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_d94e1b4f0ecfe69dfba1bd1a73cf1ecd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_359b615c5839014115ebc3feb4236cb8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5643bf614d7740ee1b81bf4509335cc4 = $(`<div id="html_5643bf614d7740ee1b81bf4509335cc4" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 14 Võ Oanh, Phường 25, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 3.2 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_359b615c5839014115ebc3feb4236cb8.setContent(html_5643bf614d7740ee1b81bf4509335cc4);
+            
+        
+
+        marker_cbcd3d048bdeb39e508ccd3a68f82e03.bindPopup(popup_359b615c5839014115ebc3feb4236cb8)
+        ;
+
+        
+    
+    
+                marker_cbcd3d048bdeb39e508ccd3a68f82e03.setIcon(icon_d94e1b4f0ecfe69dfba1bd1a73cf1ecd);
+            
+    
+            var marker_8da9b6eadc924c10297d801fee61a216 = L.marker(
+                [10.79721, 106.69628],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_3c646609b61471acd161eec45d5500a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a2376c7b461e33a772f59429eb64910 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_30f68d42bfefa29109063550e223dd2a = $(`<div id="html_30f68d42bfefa29109063550e223dd2a" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 110G Đ. Lê Văn Duyệt, Phường 1, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 5.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_7a2376c7b461e33a772f59429eb64910.setContent(html_30f68d42bfefa29109063550e223dd2a);
+            
+        
+
+        marker_8da9b6eadc924c10297d801fee61a216.bindPopup(popup_7a2376c7b461e33a772f59429eb64910)
+        ;
+
+        
+    
+    
+                marker_8da9b6eadc924c10297d801fee61a216.setIcon(icon_3c646609b61471acd161eec45d5500a8);
+            
+    
+            var marker_53bf72855f6895ff117d867289d2d01d = L.marker(
+                [10.79705, 106.70471],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_8d03d13d64f0e247f9958510c43d4f19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acf43eb3d20b0fac2c5ca772c05c00d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5fb930a7dbf05ad7060617f6683ae8bd = $(`<div id="html_5fb930a7dbf05ad7060617f6683ae8bd" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 112 Đ. Nguyễn Cửu Vân, Phường 17, Bình Thạnh, Hồ Chí Minh, Việt Nam<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 10 phút     </div>`)[0];
+                popup_acf43eb3d20b0fac2c5ca772c05c00d9.setContent(html_5fb930a7dbf05ad7060617f6683ae8bd);
+            
+        
+
+        marker_53bf72855f6895ff117d867289d2d01d.bindPopup(popup_acf43eb3d20b0fac2c5ca772c05c00d9)
+        ;
+
+        
+    
+    
+                marker_53bf72855f6895ff117d867289d2d01d.setIcon(icon_8d03d13d64f0e247f9958510c43d4f19);
+            
+    
+            var marker_280c99feea18d893aa05a72c7a3e081f = L.marker(
+                [10.78845, 106.70851],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_aba28b30fb173c5d281b29768d7e1b03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b40345e767f86cf87269c4a4db432b33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4019c2fe7c11e534dd3b8aa733775bf7 = $(`<div id="html_4019c2fe7c11e534dd3b8aa733775bf7" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 168 Trường Sa, Phường 1, Bình Thạnh, Hồ Chí Minh 70000, Việt Nam<br>     <b>Khoảng cách:</b> 5.4 km<br>     <b>Thời gian:</b> 8 phút     </div>`)[0];
+                popup_b40345e767f86cf87269c4a4db432b33.setContent(html_4019c2fe7c11e534dd3b8aa733775bf7);
+            
+        
+
+        marker_280c99feea18d893aa05a72c7a3e081f.bindPopup(popup_b40345e767f86cf87269c4a4db432b33)
+        ;
+
+        
+    
+    
+                marker_280c99feea18d893aa05a72c7a3e081f.setIcon(icon_aba28b30fb173c5d281b29768d7e1b03);
+            
+    
+            var marker_5892ada9924dfa4749abf9c11220073c = L.marker(
+                [10.78871, 106.70992],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_c272f9b357be8e1a0340d5b47e7123ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02e0aa071d00b523b9c469ece60b4190 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d25eeaa1a1695197e9ae25638eec5c3 = $(`<div id="html_2d25eeaa1a1695197e9ae25638eec5c3" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 19l Nguyễn Hữu Cảnh, Phường 19, Bình Thạnh, Hồ Chí Minh 72300, Việt Nam<br>     <b>Khoảng cách:</b> 4.9 km<br>     <b>Thời gian:</b> 8 phút     </div>`)[0];
+                popup_02e0aa071d00b523b9c469ece60b4190.setContent(html_2d25eeaa1a1695197e9ae25638eec5c3);
+            
+        
+
+        marker_5892ada9924dfa4749abf9c11220073c.bindPopup(popup_02e0aa071d00b523b9c469ece60b4190)
+        ;
+
+        
+    
+    
+                marker_5892ada9924dfa4749abf9c11220073c.setIcon(icon_c272f9b357be8e1a0340d5b47e7123ba);
+            
+    
+            var marker_19d771ba11f101f4d959d703fa41df3a = L.marker(
+                [10.78943, 106.71499],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_955ca9af11e06ed0cfae105c0e8d3eed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6c6f904e62adcc5fe840e01e48772d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3c6c8fdae7d765ba209ab85b67cf90a7 = $(`<div id="html_3c6c8fdae7d765ba209ab85b67cf90a7" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 23G Nguyễn Hữu Cảnh, Phường 22, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Khoảng cách:</b> 4.5 km<br>     <b>Thời gian:</b> 7 phút     </div>`)[0];
+                popup_e6c6f904e62adcc5fe840e01e48772d5.setContent(html_3c6c8fdae7d765ba209ab85b67cf90a7);
+            
+        
+
+        marker_19d771ba11f101f4d959d703fa41df3a.bindPopup(popup_e6c6f904e62adcc5fe840e01e48772d5)
+        ;
+
+        
+    
+    
+                marker_19d771ba11f101f4d959d703fa41df3a.setIcon(icon_955ca9af11e06ed0cfae105c0e8d3eed);
+            
+    
+            var marker_f5480284340302715b6688ae7eefc27d = L.marker(
+                [10.79868, 106.7179],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_c53789f672ded4e45d0ca2eb9d030b17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "paw",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_276b9ec5f308d6440f83c1dbe8a9097b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a41dd269d7a2ff23d87825fd244e385b = $(`<div id="html_a41dd269d7a2ff23d87825fd244e385b" style="width: 100.0%; height: 100.0%;">     <b>Địa chỉ:</b> 19 Hẻm 602 Điện Biên Phủ, Phường 22, Bình Thạnh, Hồ Chí Minh 700000, Việt Nam<br>     <b>Khoảng cách:</b> 3.8 km<br>     <b>Thời gian:</b> 6 phút     </div>`)[0];
+                popup_276b9ec5f308d6440f83c1dbe8a9097b.setContent(html_a41dd269d7a2ff23d87825fd244e385b);
+            
+        
+
+        marker_f5480284340302715b6688ae7eefc27d.bindPopup(popup_276b9ec5f308d6440f83c1dbe8a9097b)
+        ;
+
+        
+    
+    
+                marker_f5480284340302715b6688ae7eefc27d.setIcon(icon_c53789f672ded4e45d0ca2eb9d030b17);
+            
+    
+            var marker_0efc25815fce9ce93f016bb717d44703 = L.marker(
+                [10.80236, 106.7428],
+                {
+}
+            ).addTo(map_96a26ba44dbeadd76a2212b324c88ca8);
+        
+    
+            var icon_28588a02ce486222c590a9fbccbeac2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60141f7d0ca521fe996ead482c9083a3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3018de0cd45310afea34e2558922210c = $(`<div id="html_3018de0cd45310afea34e2558922210c" style="width: 100.0%; height: 100.0%;"> <b>Địa chỉ:</b> Song Hành Võ Nguyên Giáp, P. Thảo Điền, TP. Thủ Đức, TP.HCM, Việt Nam<br> <b>Ghi chú:</b> Điểm đặc biệt (Thảo Điền) </div>`)[0];
+                popup_60141f7d0ca521fe996ead482c9083a3.setContent(html_3018de0cd45310afea34e2558922210c);
+            
+        
+
+        marker_0efc25815fce9ce93f016bb717d44703.bindPopup(popup_60141f7d0ca521fe996ead482c9083a3)
+        ;
+
+        
+    
+    
+                marker_0efc25815fce9ce93f016bb717d44703.setIcon(icon_28588a02ce486222c590a9fbccbeac2a);
+            
+</script>
+</html>
